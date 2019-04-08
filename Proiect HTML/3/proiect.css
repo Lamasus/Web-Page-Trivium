@@ -1,0 +1,169 @@
+header
+{
+	text-align:center;
+	text-decoration: underline;	
+	
+}
+nav
+{
+	font-size:140%;
+}
+#logo1
+{
+	top: 70px;
+	right:15px;
+	position:fixed;
+}
+#logo2
+{
+	top:70px;
+	left:15px;
+	position:fixed;
+}
+#logo3
+{
+	top:70px;
+	right:205px;
+	position:absolute;
+}
+#logo4
+{
+	top:70px;
+	left:205px;
+	position:absolute;
+}
+
+
+.par
+{
+	font-size: 1.75em; 
+	font-style: italic;
+}
+#Ceva
+{
+	width:30%;
+	height:auto;	
+	margin:2%;
+	padding:0%;
+}
+.var
+{
+	font-size:120%;
+}
+.Mb
+{
+	font-size:200%;
+	text-decoration: underline;	
+}
+ol a
+{
+	color: green;
+}
+figure
+{
+	border: solid yellow;
+	display: inline-block;
+	width:20%;
+	height auto;
+	margin:2%;
+	padding:0%;
+}
+figcaption
+{
+	border:dotted blue;
+}
+figure img
+{
+	width:100%;	
+	margin:0%;
+	padding:0%;
+}
+.Atu:hover
+{
+	width:130%;
+	margin:0%;
+	padding:0%;
+	
+}
+
+.Atu
+{
+	transition-property: width;
+	transition-duration: 2s;	
+	
+}
+.alfa
+{
+	font-size:27px;
+}
+li ol
+{
+	visibility:hidden;
+    	font-size:19px;
+}
+
+li:hover ol
+{
+	visibility:visible;
+	
+}
+table,td,tr
+{
+	border:5px dotted white;
+	border-collapse: collapse;	
+}
+tr:nth-of-type(1)
+{
+	background:pink;
+}
+tr:nth-of-type(2n)
+{
+	background:yellow;
+}
+#alt
+{
+	font-style: oblique;
+	background-color:blue;
+	color: white;
+	font-size:20px;
+}
+.myLI
+{
+	font-style: bold;
+	color: black;
+	font-size:120%;
+}
+
+@media only screen and (max-width: 800px) 
+{
+  body 
+  {
+      
+	  animation: anim 4s infinite;
+  }
+}
+
+@keyframes anim
+{
+	0% {background-color:red;}
+	25% {background-color:green;}
+	50% {background-color:yellow;}
+	75% {background-color:blue;}	
+	100% {background-color:red;}	
+}
+
+.adaugare
+{
+	background-color: coral;
+	color:magenta;
+	box-sizing: border-box;
+	font-style: italic;
+}
+
+#timp
+{
+	  float: right;
+	  width: 300px;
+	  border: 3px solid green;
+	  padding: 10px;
+}
